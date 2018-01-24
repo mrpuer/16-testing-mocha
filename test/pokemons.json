@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Ivysaur",
+    "level": 1
+  },
+  {
+    "name": "Venusaur",
+    "level": 5
+  },
+  {
+    "name": "Charmander",
+    "level": 7
+  },
+  {
+    "name": "Charmeleon",
+    "level": 3
+  },
+  {
+    "name": "Charizard",
+    "level": 9
+  },
+  {
+    "name": "Squirtle",
+    "level": 2
+  },
+  {
+    "name": "Wartortle",
+    "level": 8
+  },
+  {
+    "name": "Blastoise",
+    "level": 3
+  }
+]
