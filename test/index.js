@@ -4,12 +4,7 @@ const Pokemon = pokemonClasses.Pokemon
 const PokemonList = pokemonClasses.PokemonList
 
 const compareElements = (list) => {
-  if (list[0].name !== 'Ivysaur' || list[0].level !== 5 || list[1].name !== 'Venusaur' ||
-  list[1].level !== 3 || list[2].name !== 'Charmander' || list[2].level !== 7) {
-    return false;
-  }
-
-  return true;
+  return (list[0].name === 'Ivysaur') && (list[0].level === 5) && (list[1].name === 'Venusaur') && (list[1].level === 3) && (list[2].name === 'Charmander') && (list[2].level === 7);
 }
 
 describe('Classes tests', () => {
