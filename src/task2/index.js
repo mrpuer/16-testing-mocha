@@ -9,7 +9,7 @@ const rpcAPI = express.Router(); //roure for RPC API /api/rpc/v1/users
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-let users = [{"name":"misha","score":"700"},{"name":"masha","score":"400"},{"name":"petya","score":"100"}];
+let users = [{"name":"misha","score":"700"}];
 
 //добавление
 restAPI.post('/users/', (req, res) => {
@@ -147,3 +147,5 @@ rpcAPI.post('/users/', (req, res) => {
 app.use('/api/rest/v1/', restAPI);
 app.use('/api/rpc/v1/', rpcAPI);
 app.listen(PORT, () => process.stdout.write('Server is running...\n'));
+
+module.exports = app;

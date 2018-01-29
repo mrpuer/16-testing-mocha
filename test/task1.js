@@ -7,7 +7,7 @@ const compareElements = (list) => {
   return (list[0].name === 'Ivysaur') && (list[0].level === 5) && (list[1].name === 'Venusaur') && (list[1].level === 3) && (list[2].name === 'Charmander') && (list[2].level === 7);
 }
 
-describe('Classes tests', () => {
+describe('Task1. Classes tests', () => {
   const pokemon = new Pokemon('Ivysaur', 5);
   const pokemon2 = new Pokemon('Venusaur', 3);
   const pokemon3 = new Pokemon('Charmander', 7);
