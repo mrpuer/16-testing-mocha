@@ -61,7 +61,7 @@ restAPI.get('/users/:id', (req, res) => {
 restAPI.delete('/users/:id', (req, res) => {
   if (req.params.id === 'all') {
     users = [];
-    res.json('База Очищена');
+    res.send('База Очищена');
   }
   else if (!users[req.params.id]) {
     res.status(404);
