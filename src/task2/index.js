@@ -69,7 +69,7 @@ restAPI.delete('/users/:id', (req, res) => {
   }
   else {
     users.splice(req.params.id, 1);
-    res.json(`Пользователь с ID ${req.params.id} удален.`);
+    res.send(`Пользователь с ID ${req.params.id} удален.`);
   }
 });
 //редактирование. переместить в конец: offset = 1
